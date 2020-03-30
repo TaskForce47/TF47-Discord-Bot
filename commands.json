@@ -1,0 +1,12 @@
+{
+ "commands":  [
+   {
+     "name" : "server",
+     "description": "Displays info about the Arma 3 Server"
+   },
+   {
+     "name" : "command",
+     "description": "Shows all available commands"
+   }
+ ]
+}
