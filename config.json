@@ -1,0 +1,8 @@
+{
+  "BotAuthToken": "",
+  "BotCommandPrefix": "!",
+  "Arma3ServerIP": "116.202.164.243",
+  "Arma3ServerPort": "2303",
+  "GoogleDriveApiToken": "",
+  "GoogleDriveFolderID": ""
+}
