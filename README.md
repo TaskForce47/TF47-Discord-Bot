@@ -1,5 +1,5 @@
 # TaskForce47 Discord Bot
 
-Setup
+##Setup
 * `npm install`
 * `node main.js`
