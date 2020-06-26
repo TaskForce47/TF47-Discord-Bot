@@ -1,0 +1,30 @@
+{
+  "name": "taskforce47-discord-bot",
+  "version": "1.0.0",
+  "description": "* `npm install`\r * `node main.js`",
+  "main": "main.js",
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "discord-akairo": "^8.0.0",
+    "discord.js": "^12.2.0",
+    "fs": "^0.0.1-security",
+    "gamedig": "^2.0.20",
+    "google-drive": "^0.0.8",
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.2.0",
+    "steam-workshop": "^0.0.4",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/Bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.taskforce47.com:taskforce/TaskForce47-Discord-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
