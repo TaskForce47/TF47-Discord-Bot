@@ -22,7 +22,6 @@ export default class StatusCommand extends Command {
             .setTimestamp(Date.now())
             .addFields(
                 {name: "API latency", value: `${this.client.ws.ping}ms`},
-                {name: "Uptime", value: `${Date.now()}`},
                 {name: "Memory usage", value: `${(Math.round((process.memoryUsage().heapUsed / 1024 / 1024)*100)/100)} MB`},
             )
     );

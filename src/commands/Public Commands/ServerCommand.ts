@@ -11,7 +11,8 @@ export default class ServerCommand extends Command {
         usage: "server",
         examples: ["server"]
       },
-      ratelimit: 3
+      ratelimit: 3,
+      cooldown: 3e5
     });
   }
   public async exec(message: Message): Promise<any> {
